@@ -1,0 +1,36 @@
+TAMBAHAN
+
+1. Fitur Dinamis dengan PHP
+- Formulir kontak yang terhubung ke email atau database
+- Sistem upload gambar/proyek
+- Admin panel (untuk mengedit konten portofolio secara mudah)
+Contoh use case: Kamu bisa login sebagai admin untuk menambah proyek baru langsung dari web.
+
+ 2. Database (MySQL atau SQLite)
+- Simpan data proyek, kontak masuk, atau testimonial.
+- Buat struktur tabel seperti:
+- projects (id, title, description, image_path)
+- messages (id, email, message, timestamp)
+
+3. Efek Visual & Animasi
+- Gunakan library seperti AOS (Animate On Scroll) untuk transisi elegan saat scroll.
+- Tambahkan efek hover ke kartu proyek dengan CSS atau JS agar interaktif.
+
+4. SEO & Metadata
+- Tambahkan tag <meta> yang mendukung SEO:
+<meta name="description" content="Portofolio Pengembang Web - Azis">
+<meta name="keywords" content="PHP, CSS, Bootstrap, Portofolio, Web Developer">
+
+5. Responsivitas & Aksesibilitas
+- Gunakan fitur Bootstrap seperti grid system untuk layout responsif.
+- Pastikan warna, ukuran teks, dan elemen form mudah diakses oleh semua pengguna.
+
+6. Integrasi Eksternal
+- Google Maps Embed (jika relevan dengan lokasi kerja).
+- GitHub project showcase, menggunakan API atau embed repo kamu.
+- Tambahkan link media sosial dengan ikon Bootstrap atau Font Awesome.
+
+7. Keamanan Dasar
+- Validasi form dengan JavaScript & PHP.
+- Sanitasi input agar aman dari XSS dan SQL injection.
+
