@@ -65,22 +65,3 @@ form .form-control::placeholder {
 * {
   transition: all 0.3s ease;
 }
-
-
-/* Dark Mode Styles
-body.dark-mode {
-  background-color: #121212;
-  color: #e0e0e0;
-}
-
-.dark-mode .glass {
-  background: rgba(40, 40, 40, 0.4);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.dark-mode .card-body,
-.dark-mode footer,
-.dark-mode form .form-control {
-  background-color: rgba(255, 255, 255, 0.1);
-  color: #e0e0e0;
-} */
