@@ -4,41 +4,88 @@
     <title>Form Registrasi</title>
     <style>
       body {
-        font-family: Arial;
-        background: #f2f2f2;
+        font-family: 'Segoe UI', Arial, sans-serif;
+        background: linear-gradient(120deg, #154f88 0%, #6dd5ed 100%);
+        min-height: 100vh;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
 
       .container {
-        width: 300px;
-        margin: 100px auto;
-        background: white;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 0 10px #aaa;
+        width: 350px;
+        background: rgba(255, 255, 255, 0.25);
+        border-radius: 18px;
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.25);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        padding: 36px 28px 28px 28px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
       }
 
       h2 {
         text-align: center;
+        color: #154f88;
+        margin-bottom: 28px;
+        letter-spacing: 1px;
+        text-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        font-weight: 700;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
       }
 
       input[type='text'],
       input[type='password'] {
-        width: 100%;
-        padding: 10px;
-        margin: 8px 0;
+        width: 91%;
+        padding: 13px 14px;
+        margin: 0;
+        border: none;
+        border-radius: 8px;
+        background: rgba(255,255,255,0.7);
+        color: #154f88;
+        font-size: 16px;
+        outline: none;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+        transition: background 0.2s, box-shadow 0.2s;
+      }
+
+      input[type='text']::placeholder,
+      input[type='password']::placeholder {
+        color: #b0b0b0;
+      }
+
+      input[type='text']:focus,
+      input[type='password']:focus {
+        background: #fff;
+        box-shadow: 0 2px 8px rgba(21,79,136,0.08);
       }
 
       input[type='submit'] {
         width: 100%;
-        padding: 10px;
-        background: teal;
-        color: white;
+        padding: 13px;
+        background: linear-gradient(90deg, #154f88 60%, #6dd5ed 100%);
+        color: #fff;
         border: none;
+        border-radius: 8px;
+        font-size: 17px;
+        font-weight: bold;
         cursor: pointer;
+        margin-top: 10px;
+        box-shadow: 0 2px 8px rgba(21,79,136,0.13);
+        transition: background 0.2s, transform 0.1s;
       }
 
       input[type='submit']:hover {
-        background: darkcyan;
+        background: linear-gradient(90deg, #0e355a 60%, #43b0d7 100%);
+        transform: translateY(-2px) scale(1.02);
       }
     </style>
   </head>

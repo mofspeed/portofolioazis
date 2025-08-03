@@ -20,3 +20,27 @@ document.addEventListener("DOMContentLoaded", () => {
     projectList.appendChild(col);
   });
 });
+
+
+// main-navbar
+
+// window.addEventListener('scroll', function () {
+//   const navbar = document.getElementById('main-navbar');
+//   if (window.scrollY > 50) {
+//     navbar.classList.add('scrolled');
+//   } else {
+//     navbar.classList.remove('scrolled');
+//   }
+// });
+
+window.addEventListener('scroll', function () {
+  const navbarNav = document.getElementById('navbarNav');
+  if (window.scrollY > 50) {
+    navbarNav.classList.add('navbar-colored');
+    navbarNav.classList.remove('navbar-transparent');
+  } else {
+    navbarNav.classList.add('navbar-transparent');
+    navbarNav.classList.remove('navbar-colored');
+  }
+});
+

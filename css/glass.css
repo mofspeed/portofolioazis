@@ -1,6 +1,6 @@
 /* Glass Effect Base */
 .glass {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(12, 12, 176, 0.15);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-radius: 15px;
@@ -8,11 +8,11 @@
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
 }
 
-/* Hero Section */
-#hero {
-  background: url('../images/bg-hero.jpg') center/cover no-repeat;
+/* Hero  */
+Section #hero {
+  background: url('../img/IMG-20250729-WA0016.jpg') center/cover no-repeat;
   color: white;
-}
+} 
 
 #hero .container {
   padding: 3rem;
@@ -44,6 +44,16 @@ section {
   color: #333;
 }
 
+/* Glassmorphism effect for cards */
+.glass-card {
+  background: rgba(255,255,255,0.15);
+  border-radius: 1rem;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.18);
+}
+
 /* Footer */
 footer {
   backdrop-filter: blur(8px);
@@ -65,3 +75,23 @@ form .form-control::placeholder {
 * {
   transition: all 0.3s ease;
 }
+
+/* glass contact */
+
+.glass-contact {
+      background: rgba(255, 255, 255, 0.18);
+      border-radius: 16px;
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.28);
+    }
+
+.glass-card {
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  }
+
